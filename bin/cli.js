@@ -5,7 +5,14 @@ const program = require('commander')
 const { engine, interactive, file, stdin } = require('../lib')
 const pkg = require('../package.json')
 
-const plugins = []
+const plugins = [
+  'doExpressions',
+  'flow',
+  'jsx',
+  'objectRestSpread',
+  'optionalCatchBinding',
+  'typescript'
+]
 const parser = engine.createParser(plugins)
 
 program
