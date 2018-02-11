@@ -1,0 +1,39 @@
+{
+  "name": "babylon-repl",
+  "version": "1.0.0",
+  "description": "CLI/REPL to parse javascript expressions using the babylon compiler. ",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "babylon-repl": "bin/cli.js"
+  },
+  "dependencies": {
+    "babylon": "^6.18.0",
+    "cardinal": "^1.0.0",
+    "commander": "^2.14.1",
+    "supports-color": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "repl",
+    "javascript",
+    "babylon",
+    "parser"
+  ],
+  "author": "Alberto Martinez de Murga Ramirez",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/threkk/babylon-repl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/threkk/babylon-repl/issues"
+  },
+  "homepage": "https://github.com/threkk/babylon-repl#readme"
+}
