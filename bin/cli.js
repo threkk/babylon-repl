@@ -27,6 +27,6 @@ if (stdin.isStdIn()) {
 } else if (program.file !== undefined) {
   file.read(parser, program.file)
 } else {
-  console.log('Press <C-d> to send. Press <C-c> to quit.')
+  // console.log('Press <C-d> to send. Press <C-c> to quit.')
   interactive.prompt(parser)
 }
